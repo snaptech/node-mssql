@@ -3,7 +3,7 @@
     "name": "Patrik Simek",
     "url": "https://patriksimek.cz"
   },
-  "name": "mssql",
+  "name": "@snaptech/mssql",
   "description": "Microsoft SQL Server client for Node.js.",
   "keywords": [
     "database",
