@@ -628,7 +628,7 @@ module.exports = (Connection, Transaction, Request, ConnectionError, Transaction
 							return
 						
 						if isChunkedRecordset
-							if columns[JSON_COLUMN_ID] and @connection.config.parseJSON is true
+							if columns[JSON_COLUMN_ID] and connection.config.parseJSON is true
 								try
 									row = JSON.parse chunksBuffer.join ''
 								catch ex
